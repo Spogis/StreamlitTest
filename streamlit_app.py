@@ -3,6 +3,7 @@ import streamlit as st
 import altair as alt
 import numpy as np
 import pandas as pd
+
 from sklearn.linear_model import LinearRegression
 
 # st.markdown('''To do:
@@ -113,7 +114,7 @@ else:
     st.session_state["theta_arr"] = theta_arr
 
 
-st.title("Demonstration of Gradient Descent")
+st.title("Demonstration of Gradient Descent - Nicolas Spogis")
 
 st.markdown('''Some data is shown below, together with the line of best fit for that data.
 There is a formula for finding that best fit line, but it can be more efficient to find 
